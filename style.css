@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+header img{
+    width: 15vw;
+    margin: 1em;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner img{
+    border-radius: 1em;
+    box-shadow: 4px 1px 54px 17px rgba(0,0,0,0.75);
+-webkit-box-shadow: 4px 1px 54px 17px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 1px 54px 17px rgba(0,0,0,0.75);
+}
+.icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2em;
+}
+.circulo{
+    width: 18vw;
+    height: 35vh;
+    background-image: url(thomy.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
